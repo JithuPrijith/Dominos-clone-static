@@ -1,0 +1,405 @@
+body{
+    margin:0%;
+}
+
+.header{
+    
+    position: relative;
+    width: 100%;
+    height: 70px;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    
+    font-weight: bold;
+    font-size: 15px;
+    box-shadow: 0 4px 15px 0 #0d4888;
+    
+    
+}
+.header-div1{
+width: 20%;
+
+}
+.header-div2{
+    width: 60%;
+     
+}
+.header-data , .header-data a{
+    
+    display: flex;
+list-style-type: none;
+justify-content: space-evenly;
+text-decoration: none;
+color: #5f88a3;
+font-family:sans-serif;
+}
+.header-data :hover{
+color: #1a5ca3;
+}
+
+.header-div3{
+    width: 20%;
+    text-align: center;
+}
+
+.download-button{
+    width: 148px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #f3223b;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+
+.section2{
+    margin: 0%;
+}
+.order-outer-section{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    box-shadow: 0 4px 200px 0 #0d4888;
+    
+    
+    
+}
+
+.order-banner-section{
+    width: 40%;
+    height: 500px;
+    background-color: #1a5ca3;
+    text-align: center;
+    display: block;
+    
+    
+    
+}
+.order-logo-section{
+    width: 60%;
+    height: 500px;
+    background-color: #1a5ca3;
+    
+}
+.order-banner-section h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    margin-top: 150px;
+    text-transform: none;
+    
+    
+}
+
+.order-button{
+    width:400px;
+    height: 3em;
+    border-radius: 2px;
+    background-color: rgb(31,179,26);
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(255,255,255);
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 2px 0 #024389, 0 0 2px 0 rgb(0 0 0 / 12%);
+}
+.order-banner-section p{
+    font-size: 21px;
+    font-weight: 500;
+    color: #47a0ff;
+    margin: 0;
+}
+
+
+
+.home-menu{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(208, 206, 206);
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 15px 0 #0d4888;
+}
+.home-menu a{
+text-decoration: none;
+color: #0275d8;
+margin-left: 15px;
+
+}
+.home-menu a:hover{
+    color: rgb(78, 77, 77);
+    text-decoration: underline;
+}
+
+
+
+
+.outer-offer-explore{
+    width: 100%;
+    height: 1000px;
+    background-color: aqua;
+}
+.offer-main{
+    width: 100%;
+    height: 500px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+}
+.offer-box{
+    width: 80%;
+    height: 60%;
+    background-color: #eee;
+    display: flex;
+    justify-content: space-between;
+
+}
+.offer-box1{
+    width:49.4% ;
+    height: 100%;
+    background-color: #1a5ca3;
+
+}
+.offer-box2{
+    width:49.4% ;
+    height: 100%;
+    background-color: #1a5ca3;
+
+}
+.offer-box1 img, .offer-box2 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.explore-main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   background-color: #eee;
+}
+
+
+.explore-box-main{
+    width: 80%;
+    height: 60%;
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    grid-template-rows:auto auto auto auto;
+    justify-content: space-between;
+    
+    
+}
+
+.big-box{
+    width: 300px;;
+    height: 250px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted black;
+   
+    
+    
+}
+.big-box h3, .big-box p,.big-box a{
+   text-align: center; 
+   margin-top: 20px;
+   color: #2b4547;
+   text-decoration: none;
+   font-family: sans-serif;
+   font-weight: bold;
+}
+
+.small-box{
+    width: 300px;
+    height: 50px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dotted black;
+    border-top-style: none;
+    
+}
+.small-box span{
+    color: #de042e;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+
+.exclusive-offers{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(224, 225, 254);
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+
+    
+}
+.download-logo{
+
+width: 500px;
+height: 300px;
+margin-left: 200px;
+background-color: rgb(224, 225, 254);
+
+}
+
+.download-logo h3{
+    color:  #59688c;
+    font-size: 2.5em;
+}
+.download-logo span{
+    color:  #59688c;
+    font-size: 27px;
+    
+}
+
+#logodiv{
+    margin-top: 20px;
+}
+
+.text-section{
+
+    width: 100%;
+    height: 1050px;
+    background-color:white;
+}
+.text-section h3{
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #006491;
+   
+}
+.text-section p{
+    color: #54565b;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    
+}
+.menu-container{
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    padding-top: 10px;
+    
+   
+}
+.menu-container-buttons{
+    
+    padding: 2px;
+    display: inline block;
+    border-radius: 6px;
+    font-family: "Arial";
+    
+    margin: 5px 5px;
+    background: #f3ecec;
+    font-size: 10px;
+    line-height: 25px;
+    border-style: groove;
+    
+    
+}
+.menu-container a{
+    text-decoration: none;
+    color: rgb(81, 81, 81);
+}
+
+
+
+
+.outer-footer{
+    width: 100%;
+    height: 300px;
+    background-color: #222e3a;
+    display: flex;
+    list-style-type: none;
+    font-family: sans-serif;
+}
+.inner-footer-small{
+    margin-left: 53px;
+    width: 200px;
+    height: 300px;
+    background-color: #222e3a;
+    
+    
+
+}
+.inner-footer-small ul{
+    list-style-type:none;
+    line-height: 30px;
+}
+.inner-footer-big{
+    width: 273px;
+    height: 300px;
+    background-color: #222e3a;
+    list-style-type: none;
+
+}
+
+.list-header{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 0.15;
+    color: #546273;
+    
+    
+}
+.inner-footer-small ul a ,.inner-footer-big ul a ,.outer-footer ul{
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    text-decoration: none;
+    line-height: 35px;
+}
+.social-links{
+    display:flex
+    
+}
+
+
+
+.final-footer{
+    width: 100%;
+    height: 60px;
+    background-color: #47a0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   font-family: sans-serif;
+    background: #1a2735;
+    color: #5c6f83;
+    font-size: small;
+
+}
+.social-links li {
+    padding: 5px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.order-button:active{
+    
+}
